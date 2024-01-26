@@ -12,5 +12,5 @@ spec:
   imageName: 192.168.6.52:9000/win10vm.ova
   powerState: poweredOn
   networkInterfaces:
-  - networkName: "DPG-237"
+  - networkName: "VM Network"
     ethernetCardType: "vmxnet3"

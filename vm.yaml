@@ -12,9 +12,9 @@ spec:
   networkInterfaces:
   - networkName: "VM Network"
     ethernetCardType: "vmxnet3"
-  - networkName: "VM Network"
+  - networkName: "VM Network1"
     ethernetCardType: "vmxnet3"
-  - networkName: "VM Network"
+  - networkName: "VM Network2"
     ethernetCardType: "vmxnet3"
     
   vmMetadata:

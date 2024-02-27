@@ -10,8 +10,13 @@ spec:
   imageName: packages.vmware.com/photon/4.0/GA/ova/photon-hw11-4.0-1526e30ba0.ova
   powerState: poweredOn
   networkInterfaces:
-  - networkName: "VM Network"
+  - networkName: "VM Network1"
     ethernetCardType: "vmxnet3"
+  - networkName: "VM Network2"
+    ethernetCardType: "vmxnet3"
+  - networkName: "VM Network3"
+    ethernetCardType: "vmxnet3"
+    
   vmMetadata:
     configMapName: user-data-photon
     transport: CloudInit
@@ -29,7 +34,7 @@ data:
       - name: root
         sudo: ALL=(ALL) NOPASSWD:ALL
         lock_passwd: false
-        passwd: 'P@ssw0rd123'
+        passwd: 'UEBzc3cwcmQxMjM='
         shell: /bin/bash
     write_files:
       - content: |

@@ -1,7 +1,7 @@
 apiVersion: vmoperator.vmware.com/v1alpha1
 kind: VirtualMachine
 metadata:
-  name: photon-vm-ecs
+  name: photon-vm-ecs1
   namespace: default
   annotations:
     vmoperator.vmware.com/image-supported-check: disable
@@ -12,9 +12,9 @@ spec:
   networkInterfaces:
   - networkName: "VM Network"
     ethernetCardType: "vmxnet3"
-  - networkName: "VM Network2"
+  - networkName: "VM Network"
     ethernetCardType: "vmxnet3"
-  - networkName: "VM Network3"
+  - networkName: "VM Network"
     ethernetCardType: "vmxnet3"
     
   vmMetadata:

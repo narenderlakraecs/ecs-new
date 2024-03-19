@@ -1,7 +1,7 @@
 apiVersion: vmoperator.vmware.com/v1alpha1
 kind: VirtualMachine
 metadata:
-  name: centos-vm
+  name: centos1-vm
   namespace: tanzu
 spec:
   networkInterfaces:

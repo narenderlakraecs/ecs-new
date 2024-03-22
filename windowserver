@@ -8,7 +8,7 @@ metadata:
     #vmoperator.vmware.com/cloudinit-type: cloudinitprep
 spec:
   className: small
-  imageName: 10.237.237.5:8000/win-2012.ova
+  imageName: https://ent.box.com/shared/static/gxensy8dt1cowul7qyn1ph2d9l0m43ii.ova
   powerState: poweredOn
   storageClass: default-vm-sc
   vmMetadata:

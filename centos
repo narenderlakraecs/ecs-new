@@ -22,5 +22,5 @@ metadata:
     namespace: tanzu
 data: 
   hostname: centos-vm
-  password: VMware1!
+  password: 'Vk13YXJlMTIzIQo='
   public-keys: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDC0v+KHo+uxHpEzlr7v4yduuIV4HOi0X7mpE0

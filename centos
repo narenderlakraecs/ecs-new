@@ -2,7 +2,7 @@ apiVersion: vmoperator.vmware.com/v1alpha1
 kind: VirtualMachine
 metadata:
   name: centos1-vm
-  namespace: tanzu
+  namespace: default
 spec:
   networkInterfaces:
   - networkName: "workload-network-1"

@@ -1,7 +1,7 @@
 apiVersion: vmoperator.vmware.com/v1alpha1
 kind: VirtualMachine
 metadata:
-  name: photon-vm-ecs2
+  name: photon-vm-ecs1
   namespace: default
   annotations:
     vmoperator.vmware.com/image-supported-check: disable
@@ -11,10 +11,6 @@ spec:
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
-    ethernetCardType: "vmxnet3"
-  - networkName: "VM Network1"
-    ethernetCardType: "vmxnet3"
-  - networkName: "VM Network2"
     ethernetCardType: "vmxnet3"
     
   vmMetadata:
@@ -34,7 +30,7 @@ data:
       - name: root
         sudo: ALL=(ALL) NOPASSWD:ALL
         lock_passwd: false
-        passwd: 'UEBzc3cwcmQxMjM='
+        passwd: 'Vk13YXJlMTIzIQo='
         shell: /bin/bash
     write_files:
       - content: |

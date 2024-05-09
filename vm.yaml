@@ -12,7 +12,7 @@ spec:
   networkInterfaces:
   - networkName: "VM Network"
     ethernetCardType: "vmxnet3"
-    
+        
   vmMetadata:
     configMapName: user-data-photon
     transport: CloudInit

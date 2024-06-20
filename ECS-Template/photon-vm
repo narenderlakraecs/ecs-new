@@ -8,7 +8,7 @@ metadata:
     vmoperator.vmware.com/image-supported-check: disable
 spec:
   className: guaranteed-small
-  imageName: packages.vmware.com/photon/4.0/GA/ova/photon-hw11-4.0-1526e30ba0.ova
+  imageName: /vmfs/volumes/datastore1/bionic-server-cloudimg-amd64.ova
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
